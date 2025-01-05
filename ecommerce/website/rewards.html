@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rewards Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #45a049;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .rewards-section {
+            margin-bottom: 30px;
+        }
+
+        .reward-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: #f9f9f9;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .reward-item h3 {
+            margin: 0;
+        }
+
+        .btn-redeem {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .btn-redeem:hover {
+            background-color: #45a049;
+        }
+
+        .info-box {
+            background-color: #e9f7e9;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #45a049;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        
+        .paise {
+            position: relative;
+            font-weight: 900;
+            left: 1125px;
+        }
+        
+        .points {
+            margin-bottom: 40px;
+            margin-top: 4px;
+            color: #45a049;
+            position: relative;
+            left: 1130px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Your Rewards </h1>
+        <p>Earn rewards and redeem them for great prizes!</p>
+    </header>
+
+    <div class="container">
+        <div class="rewards-section">
+            <h2>Available Rewards</h2>
+            <h1 class="paise">500</h1>
+            <h3 class="points">points</h3>
+
+            <div class="reward-item">
+                <div>
+                    <h3>Free Coffee</h3>
+                    <p>Get a free coffee on your next visit. Requires 100 points.</p>
+                </div>
+                <a href="#" class="btn-redeem">Redeem</a>
+            </div>
+
+            <div class="reward-item">
+                <div>
+                    <h3>$10 Gift Card</h3>
+                    <p>Redeem a $10 gift card with 500 points.</p>
+                </div>
+                <a href="#" class="btn-redeem">Redeem</a>
+            </div>
+
+            <div class="reward-item">
+                <div>
+                    <h3>Discount Voucher</h3>
+                    <p>Get a 20% discount voucher for your next purchase with 200 points.</p>
+                </div>
+                <a href="#" class="btn-redeem">Redeem</a>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <h3>How to Earn Points:</h3>
+            <p>Earn points by completing activities like making purchases, referring friends, or participating in special promotions. Check back often for more ways to earn!</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Rewards Program. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

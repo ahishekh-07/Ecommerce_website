@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Our Green Shops</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            padding: 10px 20px;
+            color: white;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            display: inline-block;
+            font-weight: bold;
+        }
+
+        .navbar a:hover,
+        .navbar a.active {
+            background-color: #66bb6a ;
+            color: white;
+        }
+
+        .navbar-toggle {
+            background-color: transparent;
+            border: none;
+            font-size: 30px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .navbar-toggle:hover {
+            color: #ffcc00;
+        }
+
+        /* About Section Styles */
+        /* Remove hover effect for About section */
+.navbar a[href="about.html"]:hover {
+    background-color: transparent;
+    transform: none;
+}
+    
+        #about {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        #about h1 {
+            font-size: 2.5rem;
+            color: #4CAF50;
+        }
+
+        #about p {
+            font-size: 1.2rem;
+            line-height: 1.5;
+            margin-bottom: 40px;
+        }
+
+        .shop-listing {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .shop-info {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            transition: transform 0.3s ease;
+        }
+
+        .shop-info:hover {
+            transform: translateY(-10px);
+        }
+
+        .shop-img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .shop-description h2 {
+            color: #4CAF50;
+            font-size: 1.5rem;
+            margin-top: 20px;
+        }
+
+        .shop-description p {
+            font-size: 1rem;
+            margin-top: 10px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .shop-listing {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="navbar" id="navbar">
+            <a href="welcome.html">Welcome</a>
+            <a href="products.html">Products</a>
+            <a href="geofenc.html">Geofenc</a>
+            <a href="about.html" class="active">About</a> <!-- Active class for current page -->
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <!-- Three dots button on the right -->
+    </header>
+
+    <!-- About Section -->
+    <div class="content" id="content">
+        <section id="about">
+            <h1>About Our Green Shops</h1>
+            <p>At Our Green Shops, we are passionate about creating a greener future. We offer a range of sustainable and eco-friendly products to help you make environmentally-conscious choices. Our shops are a place where eco-friendliness meets quality, offering everything from organic food to sustainable living products. Here's a look at our shop locations and what each offers to make your green shopping experience seamless and enjoyable.</p>
+            
+            <!-- Shop Listings -->
+            <div class="shop-listing">
+                <div class="shop-info">
+                    <img src="/Images/shop1.jpg" alt="Green Paradise" class="shop-img">
+                    <div class="shop-description">
+                        <h2>Green Paradise</h2>
+                        <p>Located in the heart of the city, we offer a variety of organic products and eco-friendly solutions to make your green living easier.</p>
+                    </div>
+                </div>
+
+                <div class="shop-info">
+                    <img src="/Images/shop2.jpg" alt="EcoMart" class="shop-img">
+                    <div class="shop-description">
+                        <h2>EcoMart</h2>
+                        <p>Our flagship store, offering organic foods, sustainable living products, and eco-friendly gadgets to help create a better world.</p>
+                    </div>
+                </div>
+
+                <div class="shop-info">
+                    <img src="/Images/shop3.jpg" alt="The Green Corner" class="shop-img">
+                    <div class="shop-description">
+                        <h2>The Green Corner</h2>
+                        <p>Specializing in eco-friendly home decor and furniture, The Green Corner aims to help you transform your home into a sustainable sanctuary.</p>
+                    </div>
+                </div>
+
+                <div class="shop-info">
+                    <img src="/Images/shop4.jpg" alt="Nature's Choice" class="shop-img">
+                    <div class="shop-description">
+                        <h2>Nature's Choice</h2>
+                        <p>Offering organic beauty products and health supplements, all sourced ethically to ensure the best for you and the environment.</p>
+                    </div>
+                </div>
+
+                <div class="shop-info">
+                    <img src="/Images/shop5.jpg" alt="EcoLiving" class="shop-img">
+                    <div class="shop-description">
+                        <h2>EcoLiving</h2>
+                        <p>EcoLiving specializes in eco-friendly electronics and green technologies, helping you reduce your environmental impact with innovation.</p>
+                    </div>
+                </div>
+
+                <div class="shop-info">
+                    <img src="/Images/shop6.jpg" alt="Green Goods" class="shop-img">
+                    <div class="shop-description">
+                        <h2>Green Goods</h2>
+                        <p>Explore our sustainable fashion, accessories, and footwear collection, offering stylish and eco-conscious choices for every lifestyle.</p>
+                    </div>
+                </div>
+
+                <div class="shop-info">
+                    <img src="/Images/shop7.jpg" alt="Earth Essentials" class="shop-img">
+                    <div class="shop-description">
+                        <h2>Earth Essentials</h2>
+                        <p>Earth Essentials focuses on eco-friendly cleaning products and waste-reducing solutions, helping you live sustainably every day.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to the external JavaScript file -->
+</body>
+</html>
